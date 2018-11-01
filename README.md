@@ -1,10 +1,27 @@
-## This is Githun page for Documentation for ~*OPENSTUDIO PROJECT 
+## This is Githun page for Documentation for ~OPENSTUDIO PROJECT~ RISD DM19
 
 You can use the [editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
+
+Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
+
+NOOBS > etcher > flash!
+At the beginning, setup > network > select the wifi and type ID/PASS
+Don’t need to select or configure. It will automatically setup
+
+
+
+
+TWITTER BOTS
+
+Twitter Apps > apply for developer account
+https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/
+https://apps.twitter.com/
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

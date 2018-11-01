@@ -1,4 +1,4 @@
-## This is Githun page for Documentation for ~*OPENSTUDIO PROJECT*~ RISD DM19
+## This is Githun page for Documentation for *OPENSTUDIO PROJECT* RISD DM19
 
 You can use the [editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -22,10 +22,9 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-ap
 https://apps.twitter.com/
 
 
-
+```markdown
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
 Syntax highlighted code block
 
 # Header 1
@@ -41,9 +40,11 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+```
 
 ### Jekyll Themes
 

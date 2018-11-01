@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## This is Githun page for Documentation for ~*OPENSTUDIO PROJECT 
 
 You can use the [editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

@@ -1,4 +1,4 @@
-## This is Githun page for Documentation for *OPENSTUDIO PROJECT* RISD DM19
+## This is Github page for Documentation for *OPENSTUDIO PROJECT* RISD DM19
 
 OPEN STUDIO ON CIT 4th FLOOR!
 We (Young&Win DM19) will build a twitter bot -- which collects data from audience by voice recognition.

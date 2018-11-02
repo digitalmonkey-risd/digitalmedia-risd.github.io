@@ -1,8 +1,11 @@
 ## This is Githun page for Documentation for *OPENSTUDIO PROJECT* RISD DM19
 
-You can use the [editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+OPEN STUDIO ON CIT 4th FLOOR!
+We (Young&Win DM19) will build a twitter bot -- which collects data from audience by voice recognition.
+We will update all the steps we go through for document& for me& for review back in the future!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+>>>[editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md)
+
 
 ### Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
 
@@ -53,3 +56,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Some Defaults
+
+You can use the [editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+

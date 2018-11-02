@@ -4,7 +4,7 @@ OPEN STUDIO ON CIT 4th FLOOR!
 We (Young&Win DM19) will build a twitter bot -- which collects data from audience by voice recognition.
 We will update all the steps we go through for document& for me& for review back in the future!
 
->>>[editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md)
+>[editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md)
 
 
 ### Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 

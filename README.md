@@ -9,7 +9,7 @@ We will update all the steps we go through for document& for me& for review back
 
 ### 1.Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
 
-~*-.RaspberryPI (FAILED..)*~
+~*RaspberryPI (FAILED..)*~
 
 - Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
 NOOBS > etcher > flash!

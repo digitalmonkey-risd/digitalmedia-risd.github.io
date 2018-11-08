@@ -7,22 +7,31 @@ We will update all the steps we go through for document& for me& for review back
 >[editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md)
 
 
-### Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
+### 1.Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
+
+~*-.RaspberryPI (FAILED..)*~
 
 Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
-
 NOOBS > etcher > flash!
 At the beginning, setup > network > select the wifi and type ID/PASS
 Don’t need to select or configure. It will automatically setup
 
-
-
-
 TWITTER BOTS
-
 Twitter Apps > apply for developer account
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/
 https://apps.twitter.com/
+
+### 2. Install these to your Computer!
+
+- PIP
+install PIP to your computer using Terminal (MAC)
+```markdown
+$ sudo pip install 
+```
+Also, if you need upgrade below is the code
+```markdown
+$ sudo pip --upgrade pip
+```
 
 
 ```markdown

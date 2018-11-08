@@ -1,6 +1,6 @@
 ## This is Github page for Documentation for *OPENSTUDIO PROJECT* RISD DM19
 
-OPEN STUDIO ON CIT 4th FLOOR!
+- OPEN STUDIO ON CIT 4th FLOOR!
 We (Young&Win DM19) will build a twitter bot -- which collects data from audience by voice recognition.
 We will update all the steps we go through for document& for me& for review back in the future!
 
@@ -11,12 +11,12 @@ We will update all the steps we go through for document& for me& for review back
 
 ~*-.RaspberryPI (FAILED..)*~
 
-Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
+- Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
 NOOBS > etcher > flash!
 At the beginning, setup > network > select the wifi and type ID/PASS
 Don’t need to select or configure. It will automatically setup
 
-TWITTER BOTS
+- TWITTER BOTS
 Twitter Apps > apply for developer account
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/
 https://apps.twitter.com/
@@ -55,7 +55,44 @@ $ pip install pyaudio
 
 ###3. Open Sublime 
 ```markdown
+import speech_recognition as sr
+import time
 
+
+
+from twython import Twython
+
+from auth import (
+    consumer_key,
+    consumer_secret,
+    access_token,
+    access_token_secret
+)
+twitter = Twython(
+    consumer_key,
+    consumer_secret,
+    access_token,
+    access_token_secret
+)
+
+
+r = sr.Recognizer()
+
+
+while True:
+	with sr.Microphone() as source:
+		print("say something")
+		audio = r.listen(source)
+		print("time over, thanks")
+
+
+	try:
+		message = (r.recognize_sphinx(audio))
+		twitter.update_status(status=message+" #DM_OpenStudio")
+		print("Tweeted: %s" % message)
+		sleep(10)
+	except:
+		pass;
 ```
 
 

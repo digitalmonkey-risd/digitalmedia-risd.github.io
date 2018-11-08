@@ -46,6 +46,7 @@ after that you need to install speech recognition by the code below
 $ sudo pip install SpeechRecognition
 ```
 
+### Anaconda
 Also if your computer is preinstalled with python2, you might want to install [Anaconda](https://www.anaconda.com/download/#macos) to use python3.
 Anaconda is allowing you to go back and forth between python2 and python3.
 Download from website link and install. After that, go steps below to launch environment to perform different ver of python

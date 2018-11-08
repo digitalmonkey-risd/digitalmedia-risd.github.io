@@ -9,12 +9,6 @@ We will update all the steps we go through for document& for me& for review back
 
 ### 1.Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
 
-~*RaspberryPI (FAILED..)*~
-
-- Set up WIFI with username/pass in RaspberryPT in our case (RISD-WIFI) :
-NOOBS > etcher > flash!
-At the beginning, setup > network > select the wifi and type ID/PASS
-Don’t need to select or configure. It will automatically setup
 
 - TWITTER BOTS
 Twitter Apps > apply for developer account

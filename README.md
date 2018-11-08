@@ -33,8 +33,32 @@ Also, if you need upgrade below is the code
 $ sudo pip --upgrade pip
 ```
 
-
+- SpeedRecognition
+after that you need to install speech recognition by the code below
 ```markdown
+$ sudo pip install SpeechRecognition
+```
+
+Also if your computer is preinstalled with python2, you might want to install Anaconda to use python3.
+Anaconda is allowing you to go back and forth between python2 and python3.
+- https://www.anaconda.com/download/#macos
+
+- pyaudio or portaudio.
+  this is like speech-to-test plug-in. This will activate and allow to access your mic from python. 
+  do one of below
+  ```markdown
+$ brew install portaudio
+```markdown
+```markdown
+$ pip install pyaudio
+```
+
+###3. Open Sublime 
+```markdown
+
+```
+
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 Syntax highlighted code block

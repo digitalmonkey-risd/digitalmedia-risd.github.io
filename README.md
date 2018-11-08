@@ -28,6 +28,12 @@ install PIP to your computer using Terminal (MAC)
 ```markdown
 $ sudo pip install 
 ```
+also you might need to install below to install twisted
+
+```markdown
+$ pip install twisted
+```
+
 Also, if you need upgrade below is the code
 ```markdown
 $ sudo pip --upgrade pip
@@ -39,6 +45,7 @@ after that you need to install speech recognition by the code below
 $ sudo pip install SpeechRecognition
 ```
 
+
 Also if your computer is preinstalled with python2, you might want to install Anaconda to use python3.
 Anaconda is allowing you to go back and forth between python2 and python3.
 - https://www.anaconda.com/download/#macos
@@ -46,15 +53,16 @@ Anaconda is allowing you to go back and forth between python2 and python3.
 - pyaudio or portaudio.
   this is like speech-to-test plug-in. This will activate and allow to access your mic from python. 
   do one of below
-  ```markdown
-$ brew install portaudio
 ```markdown
+$ brew install portaudio
+```
 ```markdown
 $ pip install pyaudio
 ```
 
 ###3. Open Sublime 
 ```markdown
+# as is to refer
 import speech_recognition as sr
 import time
 
@@ -76,6 +84,7 @@ twitter = Twython(
 )
 
 
+# Recognizer() command to let make it listen
 r = sr.Recognizer()
 
 
@@ -85,7 +94,7 @@ while True:
 		audio = r.listen(source)
 		print("time over, thanks")
 
-
+# recognize_sphinx part can be changed to recognize_google. but only 50/day
 	try:
 		message = (r.recognize_sphinx(audio))
 		twitter.update_status(status=message+" #DM_OpenStudio")
@@ -94,6 +103,7 @@ while True:
 	except:
 		pass;
 ```
+
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -118,6 +128,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ```
+
 
 ### Jekyll Themes
 

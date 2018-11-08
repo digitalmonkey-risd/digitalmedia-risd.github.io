@@ -7,7 +7,7 @@ We will update all the steps we go through for document& for me& for review back
 >[editor on GitHub](https://github.com/digitalmonkey-risd/twitter/edit/master/README.md)
 
 
-### 1.Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
+## 1.Basic Materials We Use for the Project ٩(๑•̀o•́๑)و 
 
 
 - TWITTER BOTS
@@ -19,12 +19,12 @@ https://apps.twitter.com/
 [Thinking Sphinx](https://freelancing-gods.com/thinking-sphinx/v4/installing_sphinx/mac.html) or
 [Google Web Speech API](https://www.google.com/intl/en/chrome/demos/speech.html)
 
-- Anaconda
-[Anaconda](https://conda.io/docs/user-guide/tasks/manage-python.html)
+- [Anaconda](https://conda.io/docs/user-guide/tasks/manage-python.html)
 
-### 2. Install these to your Computer!
 
-- PIP
+## 2. Install these to your Computer!
+
+### PIP
 install PIP to your computer using Terminal (MAC)
 ```markdown
 $ sudo pip install 
@@ -40,7 +40,7 @@ Also, if you need upgrade below is the code
 $ sudo pip --upgrade pip
 ```
 
-- SpeedRecognition
+### SpeedRecognition
 after that you need to install speech recognition by the code below
 ```markdown
 $ sudo pip install SpeechRecognition
@@ -72,7 +72,7 @@ and check the version. If it matches with the version you installed it worked!
 $ python -V
 Python 3.6.6 :: Anaconda, Inc.
 ```
-- pyaudio or portaudio.
+### pyaudio or portaudio.
   this is like speech-to-test plug-in. This will activate and allow to access your mic from python. 
   do one of below
 ```markdown
@@ -82,10 +82,10 @@ $ brew install portaudio
 $ pip install pyaudio
 ```
 
-### 3. Open Sublime Text and make two .py files as below
+## 3. Open Sublime Text and make two .py files as below
 one is for recognition > twitt and the other is for reading API
 
--tts.py
+### tts.py
 ```markdown
 # as is to refer
 import speech_recognition as sr
@@ -128,7 +128,7 @@ while True:
 	except:
 		pass;
 ```
--auth.py
+### auth.py
 this name can be changed, or directly typed in your tts file
 ```markdown
 consumer_key        = 'your Key'
@@ -137,12 +137,12 @@ access_token        = 'your Key'
 access_token_secret = 'your Key'
 ```
 
-### 4.Run Anaconda -- In case you have different version of python installed. As far I tested it works well in python 3.6
+## 4.Run Anaconda -- In case you have different version of python installed. As far I tested it works well in python 3.6
 ```markdown
 $ source activate py36
 ```
 
-### 5. Rud your code!
+## 5. Rud your code!
 ```markdown
 $ cd /yourPathWhere tts.py is in 
 ```

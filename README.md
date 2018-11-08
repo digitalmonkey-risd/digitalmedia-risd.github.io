@@ -16,7 +16,7 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-ap
 https://apps.twitter.com/
 
 - TTS API
-[Thinking Sphinx](https://freelancing-gods.com/thinking-sphinx/v4/installing_sphinx/mac.html)
+[Thinking Sphinx](https://freelancing-gods.com/thinking-sphinx/v4/installing_sphinx/mac.html) or
 [Google Web Speech API](https://www.google.com/intl/en/chrome/demos/speech.html)
 
 - Anaconda

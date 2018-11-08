@@ -88,7 +88,7 @@ $ brew install portaudio
 $ pip install pyaudio
 ```
 
-### 3. Open Sublime and make two .py files as below
+### 3. Open Sublime Text and make two .py files as below
 one is for recognition > twitt and the other is for reading API
 
 -tts.py

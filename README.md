@@ -82,6 +82,11 @@ $ brew install portaudio
 ```markdown
 $ pip install pyaudio
 ```
+### Sphinx
+```markdown
+$ sudo pip install pocketsphinx
+```
+google version works without anything but to use sphinx, you need this line. Google limits 50p/day
 and restart your computer!
 
 ## 3. Open Sublime Text and make two .py files as below

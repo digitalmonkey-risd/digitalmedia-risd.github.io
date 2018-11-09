@@ -123,6 +123,7 @@ r = sr.Recognizer()
 while True:
 	with sr.Microphone() as source:
 		print("say something")
+		r.energy_threshold = 4000
 		audio = r.listen(source)
 		print("time over, thanks")
 
@@ -131,7 +132,7 @@ while True:
 		message = (r.recognize_sphinx(audio))
 		twitter.update_status(status=message+" #DM_OpenStudio")
 		print("Tweeted: %s" % message)
-		sleep(10)
+		time.sleep(100)
 	except:
 		pass;
 ```
